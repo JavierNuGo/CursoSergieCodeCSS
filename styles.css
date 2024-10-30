@@ -1,0 +1,104 @@
+
+
+:root{
+    --color-primario:#525044;
+    --color-secundario:#0f0f0f;
+    --color-titulo:#bf3e3e;
+    --color-letra:#ffffff;
+    --color-a:#cc9e60;
+
+
+}
+
+body{
+    color: var(--color-letra);
+    background:linear-gradient(to bottom right, var(--color-primario)50%, var(--color-secundario) 70%)
+    
+}
+
+p{
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+h1, h2 {
+    letter-spacing: 8px;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-titulo);
+    font-size: 30px;
+    font-style: oblique;
+    text-align: center;
+    padding: 15px;
+}
+
+.barraNavegacion{
+    background-color: #0f0f0f;
+    padding: 20px;
+    color: var(--color-letra);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+}
+a{
+    background-color: var(--color-a);
+    color: var(--color-secundario);
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+
+}
+
+nav :hover {
+    background-color: var(--color-titulo);
+    color:var(--color-letra); /* Efecto hover dorado */
+    }
+
+footer {
+        background-color:var(--color-a); 
+        color: var(--color-letra);
+        text-align: center;
+        bottom: 0;
+        width: 100%;
+        }
+
+.columna{
+    margin: 50px;
+    display: flex;
+}
+.columna>p{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 80px;
+
+}
+
+
+
+.imagen{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;   
+}
+.imagen1{
+    height: 400px;
+    width: 700px;
+    border-radius: 20px;   
+}
+
+.imagen3{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin:50px 500px;
+    height: 400px;
+    width: 700px;
+    border-radius: 20px;  
+}
